@@ -5,4 +5,5 @@ python:
 install:
   - "pip install pytest"
   - "pip install requests"
+  - "pip install json"
 script: python3 -m pytest gitremote
